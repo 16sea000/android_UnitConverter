@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lk.ac.cmb.sci.edp.unitconverter.MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="3">
+
+    <Button
+        android:id="@+id/btn_cm_km"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="cm -> km"
+        android:tag = "cm_km"
+        android:onClick="openConverter"/>
+
+
+    <Button
+        android:id="@+id/btn_mg_kg"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="mg -> kg"
+        android:tag = "mg_kg"
+        android:onClick="openConverter"/>
+
+    <Button
+        android:id="@+id/btn_m_in"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="m -> in"
+        android:tag = "m_in"
+        android:onClick="openConverter"
+
+        />
+</LinearLayout>
